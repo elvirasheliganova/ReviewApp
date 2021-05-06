@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { createStackNavigator } from '@react-navigation/stack';
-import { NavigationContainer } from '@react-navigation/native';
+
 
 import HomeScreen from '../screens/Home';
 import ReviewDetailsScreen from '../screens/ReviewDetailsScreen';
@@ -10,11 +10,11 @@ import ReviewDetailsScreen from '../screens/ReviewDetailsScreen';
 const HomeStack = createStackNavigator(
   );
 
-export default function Navigator() {
+export default function myStacks() {
 
   return (
     
-    <NavigationContainer>
+    
       <HomeStack.Navigator
         screenOptions= {{
           headerStyle: {
@@ -40,7 +40,7 @@ export default function Navigator() {
         />
 
       </HomeStack.Navigator>
-  </NavigationContainer>
+ 
     
   );
 }

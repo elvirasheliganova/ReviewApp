@@ -1,6 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import Navigator from './routes/homestack';
+import Navigator from './routes/drawer';
 
 
 

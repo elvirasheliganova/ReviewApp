@@ -6,7 +6,7 @@ import { FlatList, TouchableOpacity, StyleSheet, Text, View } from 'react-native
 
 
 
-export default function HomeScreen({ navigation }) {
+export default function AboutScreen({ navigation }) {
 
   const [reviews, setReviews] = useState([
     { title: 'Zelda, Breath of Fresh Air', rating: 5, body: 'lorem ipsum', key: '1' },
